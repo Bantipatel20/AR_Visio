@@ -1,0 +1,92 @@
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+*.env
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Backend
+Backend/.env
+Backend/node_modules/
+Backend/logs/
+Backend/*.log
+
+# Web Frontend (React)
+Web-Frontend/node_modules/
+Web-Frontend/.env
+Web-Frontend/build/
+Web-Frontend/dist/
+Web-Frontend/.cache/
+Web-Frontend/.vite/
+
+# App Frontend (Flutter)
+App-Frontend/.dart_tool/
+App-Frontend/.flutter-plugins
+App-Frontend/.flutter-plugins-dependencies
+App-Frontend/.packages
+App-Frontend/build/
+App-Frontend/.pub-cache/
+App-Frontend/.pub/
+App-Frontend/pubspec.lock
+App-Frontend/ios/Pods/
+App-Frontend/ios/.symlinks/
+App-Frontend/android/.gradle/
+App-Frontend/android/app/debug/
+App-Frontend/android/app/profile/
+App-Frontend/android/app/release/
+App-Frontend/android/local.properties
+App-Frontend/android/key.properties
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Production builds
+dist/
+build/
+out/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Lock files (optional - uncomment if you want to ignore)
+# package-lock.json
+# yarn.lock
