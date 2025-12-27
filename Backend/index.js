@@ -30,6 +30,7 @@ app.use(
 
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
+app.use('/api/objects', require('./routes/objectRoutes'));
 
 // Home route
 app.get('/', (req, res) => {
