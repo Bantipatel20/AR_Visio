@@ -20,6 +20,7 @@ app.use(
   cors({
     origin: [
       'http://localhost:3000', // React dev server
+      'http://localhost:3001', // React dev server (alternate port)
       'http://localhost:5000',
       'http://localhost:5173', // Vite dev server
       // Add production URLs here later
